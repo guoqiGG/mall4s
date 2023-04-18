@@ -1,0 +1,129 @@
+page {
+  background: #f4f4f4;
+}
+
+image {
+  width: 100%;
+  height: 100%;
+}
+
+.delivery-certificate {
+  margin: 30rpx;
+  padding: 30rpx;
+  background: #fff;
+  font-size: 24rpx;
+  border-radius: 10rpx;
+  box-shadow: 0 0 6rpx rgba(0,0,0,0.05);
+}
+
+.delivery-certificate .item {
+  position: relative;
+  border-bottom: 2rpx dashed #ddd;
+}
+
+.delivery-certificate .item::before,
+.delivery-certificate .item::after {
+  position: absolute;
+  bottom: -20rpx;
+  display: block;
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 50%;
+  background: #f4f4f4;
+  content: " ";
+  font-size: 0;
+}
+
+.delivery-certificate .item::before {
+  left: -56rpx;
+}
+
+.delivery-certificate .item::after {
+  right: -56rpx;
+}
+
+.delivery-certificate .address-box {
+  padding-bottom: 30rpx;
+}
+.delivery-certificate .address-box .name {
+  font-size: 28rpx;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20rpx;
+  font-weight: 600;
+}
+
+.delivery-certificate .address-box .name .self-icon {
+  padding: 2rpx 6rpx;
+  line-height: 1;
+  color: #e43130;
+  border: 2rpx solid #e43130;
+  font-size: 20rpx;
+  margin-left: 10rpx;
+  border-radius: 4rpx;
+  font-weight: 400;
+}
+
+.delivery-certificate .address-box .a-item {
+  margin-bottom: 10rpx;
+  display: flex;
+}
+
+.delivery-certificate .address-box .a-item .img {
+  width: 24rpx;
+  height: 24rpx;
+  font-size: 0;
+  margin-right: 10rpx;
+  margin-top: 4rpx;
+}
+
+.delivery-certificate .address-box .a-item .text {
+  flex: 1;
+}
+
+.delivery-certificate .code-det {
+  padding: 40rpx 0;
+}
+
+.delivery-certificate .code-det .bar-code {
+  font-size: 0;
+  margin: auto;
+  width: 610rpx;
+  height: 150rpx;
+}
+
+.delivery-certificate .code-det .code-number {
+  margin-top: 20rpx;
+  text-align: center;
+}
+
+.delivery-certificate .code-det .code {
+  width: 300rpx;
+  height: 300rpx;
+  margin: 40rpx auto 0;
+}
+
+.delivery-certificate .btn-box {
+  margin-top: 30rpx;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  width: auto;
+  text-align: center;
+  /* height: 70rpx; */
+  /* line-height: 70rpx; */
+	font-size: 26rpx;
+  font-weight: bold;
+  border-radius: 70rpx;
+}
+
+.code .qrcode-img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+
+

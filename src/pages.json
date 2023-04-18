@@ -1,0 +1,75 @@
+{
+	"pages": [ // pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/account-login/account-login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/self-mention-order/self-mention-order",
+			"style": {
+				"navigationBarTitleText": "核销到店自提订单"
+			}
+		},
+		{
+			"path": "pages/order-list/order-list",
+			"style": {
+				"backgroundTextStyle": "light",
+				"navigationBarTitleText": "订单列表"
+			}
+		},
+		{
+			"path": "pages/order-detail/order-detail",
+			"style": {
+				"backgroundTextStyle": "light",
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/shop-adminsistration/shop-adminsistration",
+			"style": {
+				"backgroundTextStyle": "light",
+				"navigationBarTitleText": "店铺管理"
+			}
+		},
+		{
+			"path": "pages/scan-pick/scan-pick",
+			"style": {
+				"backgroundTextStyle": "light",
+				"navigationBarTitleText": "核销订单"
+			}
+		},
+		{
+			"path": "pages/business-code/business-code",
+			"style": {
+				"backgroundTextStyle": "light",
+				"navigationBarTitleText": "商家码"
+			}
+		},
+		{
+			"path": "pages/pick-code/pick-code",
+			"style": {
+				"backgroundTextStyle": "light",
+				"navigationBarTitleText": "核销码核销"
+			}
+		}
+	],
+	"permission": {
+		"scope.userLocation": {
+			"desc": "位置信息"
+		}
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "亚米商城门店端",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
